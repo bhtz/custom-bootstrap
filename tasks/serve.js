@@ -9,3 +9,8 @@ gulp.task('connect', function() {
 		livereload: true
 	});
 });
+
+// run livereload
+gulp.task('reload', function () {
+	connect.reload()
+});
