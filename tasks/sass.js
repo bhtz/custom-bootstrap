@@ -1,6 +1,6 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var connect     = require('gulp-connect');
+var gulp    = require('gulp');
+var sass    = require('gulp-sass');
+var connect = require('gulp-connect');
  
 // build sass in debug mode
 gulp.task('sass', function () {

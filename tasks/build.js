@@ -5,7 +5,7 @@ gulp.task('watch', function () {
     gulp.watch(['./sass/**'], ['sass']);
 });
 
-// assets tasks
+// copy bootstrap assets (fonts, js)
 gulp.task('assets', function(){
     gulp.src('./node_modules/bootstrap-sass/assets/fonts/bootstrap/**')
         .pipe(gulp.dest('./dist/fonts/bootstrap'));

@@ -48,15 +48,26 @@ Commands
 
 	gulp build
 
+* copy assets (fonts & JS)
+* build sass in debug
+
 #### release:
 
 	gulp release
+
+* copy assets (fonts & JS)
+* build sass in release mode (minified)
 
 #### serve:
 
 	gulp serve
 
+* copy assets (fonts & JS)
+* build sass in debug
+* watch sass sources modifications
+* enable livereload
+
 Roadmap
 -------
 
-...
+* enable sourcemap on build debug mode

@@ -9,5 +9,5 @@ gulp.task('build', ['assets', 'sass']);
 // build dist in release mode
 gulp.task('release', ['assets', 'sass:release']);
 
-// build dist and expose local server to port 3000
+// build dist in debug and expose local server to port 3000
 gulp.task('serve', ['build', 'watch', 'connect']);
