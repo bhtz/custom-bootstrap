@@ -1,5 +1,5 @@
-Almerys bootstrap
-=================
+Custom bootstrap
+================
 
 Projet NPM de base pour création du bootstrap Almerys custom.
 
