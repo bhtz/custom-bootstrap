@@ -1,0 +1,27 @@
+{
+  "name": "custom-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhtz/custom-bootstrap.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhtz/custom-bootstrap/issues"
+  },
+  "homepage": "https://github.com/bhtz/custom-bootstrap#readme",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-sass": "^2.0.4"
+  }
+}
